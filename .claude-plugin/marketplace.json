@@ -1,0 +1,37 @@
+{
+  "name": "devMappouras-plugins",
+  "owner": {
+    "name": "Christos Mappouras",
+    "url": "https://github.com/devMappouras"
+  },
+  "plugins": [
+    {
+      "name": "local-code-review",
+      "source": {
+        "source": "github",
+        "repo": "devMappouras/local-code-review-claude-plugin"
+      },
+      "description": "Local code review for uncommitted changes in .NET and Angular projects. Reviews code for bugs, security issues, and best practices. Builds .NET/Angular projects and optionally runs unit tests (NUnit/XUnit).",
+      "version": "1.0.0",
+      "author": {
+        "name": "Christos Mappouras",
+        "url": "https://github.com/devMappouras"
+      },
+      "homepage": "https://github.com/devMappouras/local-code-review-claude-plugin",
+      "repository": "https://github.com/devMappouras/local-code-review-claude-plugin",
+      "license": "MIT",
+      "keywords": [
+        "code-review",
+        "dotnet",
+        "angular",
+        "testing",
+        "nunit",
+        "xunit",
+        "clean-architecture",
+        "solid",
+        "security"
+      ],
+      "category": "development"
+    }
+  ]
+}

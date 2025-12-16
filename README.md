@@ -92,7 +92,39 @@ Embedded knowledge for .NET and Angular code review best practices.
 
 ## Installation
 
-This plugin is installed in your global Claude Code plugins folder and is available in all projects.
+### Option 1: Install from Marketplace (Recommended)
+
+1. Add the marketplace to Claude Code:
+```bash
+/plugin marketplace add devMappouras/local-code-review-claude-plugin
+```
+
+2. Install the plugin:
+```bash
+/plugin install local-code-review@devMappouras-plugins
+```
+
+### Option 2: Clone directly
+
+1. Clone the repository to your Claude Code plugins folder:
+```bash
+# Windows
+git clone https://github.com/devMappouras/local-code-review-claude-plugin.git "%USERPROFILE%\.claude\plugins\local-code-review"
+
+# macOS/Linux
+git clone https://github.com/devMappouras/local-code-review-claude-plugin.git ~/.claude/plugins/local-code-review
+```
+
+2. Restart Claude Code to load the plugin.
+
+### Verify Installation
+
+After installation, verify the plugin is loaded:
+```bash
+/help
+```
+
+You should see `/local-code-review` and `/local-code-review-tests` in the available commands.
 
 ## Best Practices
 
