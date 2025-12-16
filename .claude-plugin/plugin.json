@@ -4,7 +4,10 @@
   "description": "Local code review for uncommitted changes in .NET and Angular projects with build verification and optional unit test execution",
   "author": {
     "name": "Christos Mappouras",
-    "email": "cmappouras@example.com"
+    "url": "https://github.com/devMappouras"
   },
-  "keywords": ["code-review", "dotnet", "angular", "testing", "build", "git"]
+  "repository": "https://github.com/devMappouras/local-code-review-claude-plugin",
+  "homepage": "https://github.com/devMappouras/local-code-review-claude-plugin#readme",
+  "license": "MIT",
+  "keywords": ["code-review", "dotnet", "angular", "testing", "build", "git", "nunit", "xunit", "clean-architecture"]
 }
