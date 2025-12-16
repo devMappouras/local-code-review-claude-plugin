@@ -1,0 +1,10 @@
+{
+  "name": "local-code-review",
+  "version": "1.0.0",
+  "description": "Local code review for uncommitted changes in .NET and Angular projects with build verification and optional unit test execution",
+  "author": {
+    "name": "Christos Mappouras",
+    "email": "cmappouras@example.com"
+  },
+  "keywords": ["code-review", "dotnet", "angular", "testing", "build", "git"]
+}
